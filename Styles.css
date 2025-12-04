@@ -1,0 +1,48 @@
+/* color: rgb(0 0 0 / 50% <--- Es la luminosidad) Esta es la forma correcta de asignar colores*/
+
+/* ========== TIPOGRAFÍA ========== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2E9D8; /* Beige papel antiguo */
+    color: #0F0F0F;           /* Negro carbón */
+}
+
+
+/* ======= HEADER (temporal, luego lo estilizamos mejor) ======= */
+header {
+    padding: 20px;
+    background-color: #A10D0D;   /* Rojo Oni */
+    color: white;
+}
+
+
+/* ======= SECCIÓN INICIO ======= */
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+
+
+/* Texto del lado izquierdo */
+.intro-text {
+    max-width: 50%;
+}
+
+/* Foto circular del lado derecho */
+.intro-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #A10D0D; /* borde rojo Oni */
+}
