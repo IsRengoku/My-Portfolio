@@ -23,6 +23,16 @@ header {
     color: white;
 }
 
+ul {
+    display: flex; /* Para trabajar en bloque sobre un solo eje ya sea en X o en Y*/
+    /* flex: 1; quiere decir que los elementos pueden crecer, pueden reducir su tamaño y se ajustan
+    automáticamente al tamaño del contenedor*/
+}
+
+.intro-link {
+    text-decoration-line: none;
+    color: white;
+}
 
 /* ======= SECCIÓN INICIO ======= */
 #inicio {
@@ -46,3 +56,5 @@ header {
     object-fit: cover;
     border: 6px solid #A10D0D; /* borde rojo Oni */
 }
+
+
