@@ -1,4 +1,8 @@
 /* SKILLS SECTION */
+main {
+    animation: fadeUp 0.8s ease-out both;
+}
+
 .skills-section{
     width: 600px;
     max-width: 720px;
